@@ -7,7 +7,7 @@ import java.util.Scanner;
  * - Overte si spr´avnosˇt naˇc´ıtan´ych hodnˆot pomocou v´ypisu na obrazovku
  */
 public class Uloha2 {
-    public static void start() {
+    public static int[] start() {
         int[] a = {1, 2, 3, 4, 5};
         int[] b = new int[10];
         String s;
@@ -22,5 +22,6 @@ public class Uloha2 {
         for (int w=0;w<i;w++){
             System.out.print(b[w]+" ");
         }
+        return b;
     }
 }
